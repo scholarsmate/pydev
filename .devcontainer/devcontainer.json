@@ -1,0 +1,27 @@
+{
+    "name": "Python Development Container",
+    "build": {
+        "context": ".",
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.black-formatter",
+                "ms-azuretools.vscode-docker",
+                "redhat.vscode-yaml",
+                "ms-python.flake8",
+                "ms-python.mypy",
+                "tylerdave.vscode-isort",
+                "mechatroner.rainbow-csv"
+            ]
+        }
+    },
+    "forwardPorts": [],
+    "postCreateCommand": "python3 -m pip install --no-cache-dir -r requirements.txt",
+    "remoteUser": "developer"
+}

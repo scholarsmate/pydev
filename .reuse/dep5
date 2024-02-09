@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: My-Project
+Upstream-Contact: Project Developer <developer@project.com>
+
+Files: .devcontainer/Dockerfile
+      .devcontainer/devcontainer.json
+      .devcontainer/requirements-dev.txt
+      requirements.txt
+Copyright: 2024, Company Name
+License: AGPL-3.0-only
+Comment: The above files are licensed under the AGPL-3.0-only license

@@ -1,0 +1,11 @@
+bandit
+black
+coverage
+flake8
+isort
+mypy
+pip-licenses
+pytest
+reuse
+sqlfluff
+tox

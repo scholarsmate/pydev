@@ -1,0 +1,8 @@
+ms-python.python
+ms-python.black-formatter
+ms-azuretools.vscode-docker
+redhat.vscode-yaml
+ms-python.flake8
+ms-python.mypy
+tylerdave.vscode-isort
+mechatroner.rainbow-csv
